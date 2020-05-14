@@ -8,7 +8,7 @@ docker run \
 -v /LegendStart/LegendStartDataManagement/Temp:/DataHub/Temp \
 -d \
 --entrypoint "/bin/bash" \
--t labelme
+-t xxxxxxxxxxxxxxxxxxxx/labelme_via:runtime_env
 
 # restart apache inside the container
 docker exec labelme_trade_ai service apache2 restart
